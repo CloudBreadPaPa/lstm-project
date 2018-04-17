@@ -11,9 +11,22 @@ https://docs.microsoft.com/en-us/azure/machine-learning/data-science-virtual-mac
 https://<VM DNS name or IP Address>:8000/
 # remind "https"
 ```
+
+Test Jupyter notebook version info.  
+```
+import sys
+sys.version
+```
+
+To execute LSTM model, clone and execute python file.  
+```
+git clone https://github.com/CloudBreadPaPa/lstm-project.git
+# setup conda env or python3.x
+python lstm.py
+```
 Check lstm.py file and execute on DSVM or local python virtual env.  
 
-install azure ml service and workbench  
+(Optional) Install azure ml service and workbench  
 https://docs.microsoft.com/en-us/azure/machine-learning/preview/quickstart-installation  
 
 ## Prepare K8S dhackfest
